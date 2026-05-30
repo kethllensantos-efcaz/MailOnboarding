@@ -1,0 +1,274 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    p, ul, li {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    ul { margin-left: 20px; }
+
+    h3 {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1E90FF !important;
+    }
+
+    a:hover {
+      color: #00CED1 !important;
+    }
+
+    .substituir {
+        font-weight: bold;
+        color: #FF0000;
+    }
+
+    .substituir2 {
+        font-weight: bold;
+        background-color: #FF0000;
+        color: #FFF;
+    }
+
+    .card {
+        display: flex;
+        gap: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 25px 0 40px 0;
+        min-height: 46px;
+        border: 1px solid #b1b1b1;
+        background-color: #FFF;
+        padding: 20px;
+    }
+
+    .icone {
+        width: 25px;
+        flex-shrink: 0;
+        flex-basis: 25px;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        background-size: 25px;
+    }
+
+    .texto {
+      font-family: 'Barlow', sans-serif;
+      flex-grow: 1;
+      flex-basis: 0;
+      font-size: 17px;
+      width: 100%;
+    }
+
+    .titulo {
+      font-weight: bold;
+      font-size: 20px;
+      border-bottom: 1px solid #b1b1b1;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+
+    .direcionar_artigo {
+      color: #9900ff;
+    }
+
+    .btn {
+      background: #38225c;
+      color: #FFF;
+      font-family: inherit;
+      padding: 0.35em;
+      padding-left: 20px;
+      font-size: 13px;
+      font-weight: 500;
+      border-radius: 0.9em;
+      border: none;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      box-shadow: inset 0 0 1.6em -0.6em #9365b8;
+      overflow: hidden;
+      position: relative;
+      height: 2.6em;
+      padding-right: 3.3em;
+      cursor: pointer;
+    }
+
+    .icon {
+      background: white;
+      color: #38225c;
+      margin-left: 1em;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2em;
+      width: 2em;
+      border-radius: 0.7em;
+      box-shadow: 0.1em 0.1em 0.6em 0.2em #9365b8;
+      right: 0.3em;
+    }
+
+    .book .icone {
+        background-image: url("https://i.ibb.co/TBVbMD7M/book-open.png");
+    }
+
+    .book .titulo, .book .cor_tema {
+        color: #9365b8;
+    }
+
+    
+    .calendar .icone {
+        background-image: url("https://i.ibb.co/81S0spg/calendar.png");
+    }
+
+    .calendar .titulo, .calendar .cor_tema {
+        color: #00a885;
+    }
+
+        
+    .notebook .icone {
+        background-image: url("https://i.ibb.co/0pHpRkxb/notebook-pen.png");
+    }
+
+    .notebook .titulo, .notebook .cor_tema {
+        color: #41a85f;
+    }
+
+        
+    .rocket .icone {
+        background-image: url("https://i.ibb.co/WNJkRkWf/rocket.png");
+    }
+
+    .rocket .titulo, .rocket .cor_tema {
+        color: #2c82c9;
+    }
+
+        
+    .search .icone {
+        background-image: url("https://i.ibb.co/PGmdDzWV/search.png");
+    }
+
+    .search .titulo, .search .cor_tema {
+        color: #54acd2;
+    }
+
+        
+    .target .icone {
+        background-image: url("https://i.ibb.co/gFVHRdy9/target.png");
+    }
+
+    .target .titulo, .target .cor_tema {
+        color: #d14841;
+    }
+
+    .warning .icone {
+        background-image: url("https://i.ibb.co/dwHQCkR5/triangle-alert.png");
+    }
+
+    .warning .titulo, .warning .cor_tema {
+        color: #fba026;
+    }
+
+    .cam .icone {
+        background-image: url("https://i.ibb.co/G4YMpvdV/video.png");
+    }
+
+    .cam .titulo, .cam .cor_tema {
+        color: #eb6b56;
+    }
+
+</style>
+
+
+<p>Olá Equipe <span class="substituir">[Nome da Empresa]</span>,
+<p>Como estão?</p>
+
+<p>Obrigada por comparecerem em nossa reunião. Fico feliz de estarmos iniciando essa jornada juntos 🚀</p>
+
+<p>Nosso primeiro dia de treinamento foi concluído e seguem as considerações:</p>
+
+
+<!-- O que vimos -->
+<div class="card rocket">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">O que vimos?</h1>
+        <ul>
+            <li>Como convidar um novo fornecedor (dois métodos)</li>
+            <li>Como preencher cadastro e buscas automáticas (etapa do fornecedor)</li>
+            <li>Como analisar um cadastro</li>
+            <li>Como solicitar pareceres (se aplicável)</li>
+            <li>Como enviar pendência, aprovar ou aprovar com ressalva uma solicitação (novo cadastro ou atualização de cadastro)</li>
+            <li>O que é o certificado cadastral, importância e como emitir</li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Tarefas -->
+<div class="card notebook">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Tarefas</h1>
+
+        <p><span class="titulo" style="border: none;">❖ </span> <strong>Planilhas de Usuários: </strong> Pedimos que nos enviem até antes do próximo encontro.</p>
+
+        <p class="substituir2">https://efcaz.movidesk.com/kb/pt-br/article/552858/kb90008-srm-planilhas-de-parametrizacao-onboarding?menuId=51758-142327-552858&ticketId=&q=#opcao_1</p>
+
+    </div>
+</div>
+
+
+<!-- Materiais de Apoio -->
+<div class="card book">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Materiais de Apoio</h1>
+        
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/553447/guia-do-cliente?menuId=51758-142326-553447&ticketId=&q=" target="_blank" rel="noopener noreferrer">Guia do Cliente</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/574041/guia-do-fornecedor?menuId=51758-142337-574041&ticketId=&q=" target="_blank" rel="noopener noreferrer">Guia do Fornecedor</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/547502/kb90011-srm-como-criar-um-pre-cadastro?menuId=51758-142328-547502&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como criar pré-cadastro</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/574197/kb90014-srm-como-cadastrar-minha-empresa?menuId=51758-142329-574197&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como preencher cadastro (Etapa do Fornecedor)</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/549190/kb90022-srm-efcaz-como-realizar-analise-de-solicitacao?menuId=51758-142330-549190&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como analisar cadastro</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/509960/kb90023-srm-significado-dos-status-de-solicitacao?menuId=51758-142330-509960&ticketId=&q=" target="_blank" rel="noopener noreferrer">Significado dos status das solicitações</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/509917/kb90005-srm-reset-de-senha?menuId=51758-142327-509917&ticketId=&q=" target="_blank" rel="noopener noreferrer">Alteração ou reset de senha</a></p>
+    </div>
+</div>
+
+
+<!-- Link da Gravação -->
+<div class="card cam">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Link da Gravação</h1>
+        <p>Para assistir as gravações é necessário estar logado em uma Conta Gmail.</p>
+
+        <p class="substituir">[Link da Gravação]</p>
+
+    </div>
+</div>
+
+<div style="font-weight: bold;">
+    
+    <p>Caso fique alguma dúvida, sintam-se à vontade para me procurar.</p>
+
+    <p>Nos vemos em breve,</p>
+    <p>Grande abraço.</p>
+
+</div>
