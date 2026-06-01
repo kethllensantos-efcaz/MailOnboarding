@@ -1,0 +1,317 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    p, ul, li {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    ul { margin-left: 20px; }
+
+    h3 {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1E90FF !important;
+    }
+
+    a:hover {
+      color: #00CED1 !important;
+    }
+
+    .substituir {
+        font-weight: bold;
+        color: #FF0000;
+    }
+
+    .substituir2 {
+        font-weight: bold;
+        background-color: #FF0000;
+        color: #FFF;
+    }
+
+    .card {
+        display: flex;
+        gap: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 25px 0 40px 0;
+        min-height: 46px;
+        border: 1px solid #b1b1b1;
+        background-color: #FFF;
+        padding: 20px;
+    }
+
+    .icone {
+        width: 25px;
+        flex-shrink: 0;
+        flex-basis: 25px;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        background-size: 25px;
+    }
+
+    .texto {
+      font-family: 'Barlow', sans-serif;
+      flex-grow: 1;
+      flex-basis: 0;
+      font-size: 17px;
+      width: 100%;
+    }
+
+    .titulo {
+      font-weight: bold;
+      font-size: 20px;
+      border-bottom: 1px solid #b1b1b1;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+
+    .direcionar_artigo {
+      color: #9900ff;
+    }
+
+    .cronograma {
+        width: 500px;
+    }
+
+    .botao {
+        height: 45px;
+    }
+
+    .book .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/book-open.png");
+    }
+
+    .book .titulo, .book .cor_tema {
+        color: #9365b8;
+    }
+
+    
+    .calendar .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/calendar-red.png");
+    }
+
+    .calendar .titulo, .calendar .cor_tema {
+        color: #d14841;
+    }
+
+        
+    .notebook .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/notebook-pen.png");
+    }
+
+    .notebook .titulo, .notebook .cor_tema {
+        color: #41a85f;
+    }
+
+        
+    .rocket .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/rocket.png");
+    }
+
+    .rocket .titulo, .rocket .cor_tema {
+        color: #2c82c9;
+    }
+
+        
+    .search .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/search.png");
+    }
+
+    .search .titulo, .search .cor_tema {
+        color: #54acd2;
+    }
+
+        
+    .check .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/circle-check.png");
+    }
+
+    .check .titulo, .check .cor_tema {
+        color: #00a885;
+    }
+
+    .warning .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/triangle-alert.png");
+    }
+
+    .warning .titulo, .warning .cor_tema {
+        color: #fba026;
+    }
+
+    .cam .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/video.png");
+    }
+
+    .cam .titulo, .cam .cor_tema {
+        color: #eb6b56;
+    }
+
+</style>
+
+<div class="texto_externo">
+  <p>Olá Equipe <span class="substituir">[Nome da Empresa]</span>,
+  <p>Como estão?</p>
+
+  <p>Espero que estejam bem. Mais uma vez quero dar-lhes as boas-vindas ao nosso hall de clientes. <strong>É um prazer imenso tê-los conosco!</strong> ✨</p>
+
+  <p>Conforme alinhado em nossa reunião de kickoff, serei a responsável pelo onboarding de vocês e o principal ponto de contato até a conclusão do processo de implementação. Para recapitular, segue um resumo do que mapeei na reunião e das análises realizadas:</p>
+</div>
+
+<!-- O que vimos -->
+<div class="card rocket">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">O que vimos?</h1>
+        <ul>
+          <li>Apresentação das licenças contratadas</li>
+          <li>Objetivos do onboarding (configuração e capacitação)</li>
+          <li>Apresentação do cronograma proposto</li>
+          <li>Análise inicial, indicadores de sucesso e alinhamento de tarefas</li>
+          <li>Agenda da próxima reunião e criação do grupo de WhatsApp</li>
+          <li>Validação do nome do ambiente e logomarca</li>
+          <li>Definição do ponto focal do projeto</li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Cronograma Prosposto -->
+<div class="card calendar">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Cronograma Proposto</h1>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/574094/jornada-onboarding?menuId=51758-142326-574094&ticketId=&q=">        <img class="cronograma" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Cronograma%201.png"></a>
+        <br>
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/574094/jornada-onboarding?menuId=51758-142326-574094&ticketId=&q="><img class="cronograma" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Cronograma%202.png"></a>
+        <br>
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/574094/jornada-onboarding?menuId=51758-142326-574094&ticketId=&q="><img class="cronograma" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Cronograma%203.png"></a>
+        <br>
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/574094/jornada-onboarding?menuId=51758-142326-574094&ticketId=&q="><img class="cronograma" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Cronograma%204.png"></a>
+    </div>
+</div>
+
+
+<!-- Indicadores de Sucesso -->
+<div class="card check">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Indicadores de Sucesso</h1>
+        <ul>
+          <li>Qual o método atual de gestão de fornecedores e boas práticas adotadas/gostariam de adotar?</li>
+          <li>Quanto tempo leva em média hoje para uma homologação?</li>
+          <li>As áreas costumam receber auditorias?</li>
+          <li>Quais riscos e desafios hoje mais urgentes?</li>
+          <li>Quais indicadores mais esperam poder acompanhar com uso da plataforma?</li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Análise Inicial -->
+<div class="card search">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Análise Inicial</h1>
+        <ul>
+          <li>Haverá migração de fornecedores?</li>
+          <li>Existe interesse em integração com outro sistema?</li>
+          <li>Quais áreas vão usar a solução?</li>
+          <li>Os fornecedores são categorizados de alguma forma hoje? </li>
+          <li>Existe diferença na relação de documentos a serem pedidos ou é a mesma documentação para todos?</li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Tarefas -->
+<div class="card notebook">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Tarefas que devem ser concluídas durante onboarding</h1>
+        <p>Segue a relação de planilhas a serem preenchidas ao longo deste onboarding:</p>
+        <ul>
+          <li>👤&nbsp;&nbsp;Planilha de Usuários</li>
+          <li>📄&nbsp;&nbsp;Planilha de Documentos e Linhas de Fornecimento;</li>
+          <li>🤝&nbsp;&nbsp;Planilha de Migração de Fornecedores</li>
+          <li>👨‍💼&nbsp;&nbsp;Planilha de Migração de Terceiros <span class="substituir2">[Avaliar se possui no escopo]</span></li>
+          <li>📋&nbsp;&nbsp;Modelos de Avaliações Internas (PDF dos Questionários: Nome dos Modelos, Perguntas e Valor das Respostas) <span class="substituir2">[Avaliar se possui no escopo]</span></li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Materiais de Apoio -->
+<div class="card book">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Materiais de Apoio</h1>
+
+        <p><span class="titulo" style="border: none;">❖ </span> <strong>Planilhas de Usuários: </strong> Enviar apenas a planilha de usuários até o próximo encontro. As demais planilhas serão orientadas no <strong>2º Encontro</strong>, conforme o cronograma.</p>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/552858/kb90008-srm-planilhas-de-parametrizacao-onboarding?menuId=51758-142327-552858&ticketId=&q=#opcao_1"><img class="botao" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Bot%C3%A3o%201.png"></a>
+
+        <br>
+        <br>
+        
+        <p><span class="titulo" style="border: none;">❖ </span><strong>Documentação para Integração: </strong> Caso desejem integrar a plataforma com outro sistema, encaminhem a documentação abaixo ao time de TI responsável para análise das possibilidades.</p>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/557997/kb90009-srm-api-efcaz-visao-geral-e-funcionalidades?menuId=51758-142327-557997&ticketId=&q="><img class="botao" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Bot%C3%A3o%202.png"></a>
+    </div>
+</div>
+
+
+<!-- Pontos Importantes -->
+<div class="card warning">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Pontos Importantes</h1>
+        <ul>
+          <li>O processo de onboarding tem duração de até <strong>45 dias corridos</strong>, contados a partir da data do kickoff.</li>
+          <li>Caso seja necessário reagendar alguma reunião, pedimos que nos avisem com antecedência se possível.</li>
+          <li>Ao final das reuniões, a gravação será compartilhada nestes e-mails. No final do onboarding, enviaremos um resumo de todas as gravações. </li>
+          <li>É de <strong>responsabilidade do cliente:</strong>
+            <p></p>
+            <ul>
+              <li>O envio dos materiais necessários para configuração do sistema</li>
+              <li>Garantir a participação de todos os colaboradores que utilizarão a plataforma</li>
+            </ul>
+          </li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Link da Gravação -->
+<div class="card cam">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Link da Gravação</h1>
+        <p>Para assistir as gravações é necessário estar logado em uma <strong>Conta Gmail</strong>.</p>
+
+        <img class="botao" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/0.%20Boas%20Vindas%20ao%20EFCAZ%20SRM/Imagens/Bot%C3%A3o%203.png">
+
+    </div>
+</div>
+
+<div class="texto_externo">
+  <p><strong>Sigo à disposição para apoiá-los</strong> 🤝</p>
+  <p><strong>Seguimos juntos nessa nova jornada!</strong> 🚀</p>
+</div>
