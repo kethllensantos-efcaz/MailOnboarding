@@ -1,0 +1,277 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    p, ul, li {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    ul { margin-left: 20px; }
+
+    h3 {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1E90FF !important;
+    }
+
+    a:hover {
+      color: #00CED1 !important;
+    }
+
+    .substituir {
+        font-weight: bold;
+        color: #FF0000;
+    }
+
+    .substituir2 {
+        font-weight: bold;
+        background-color: #FF0000;
+        color: #FFF;
+    }
+
+    .card {
+        display: flex;
+        gap: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 25px 0 40px 0;
+        min-height: 46px;
+        border: 1px solid #b1b1b1;
+        background-color: #FFF;
+        padding: 20px;
+    }
+
+    .icone {
+        width: 25px;
+        flex-shrink: 0;
+        flex-basis: 25px;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        background-size: 25px;
+    }
+
+    .texto {
+      font-family: 'Barlow', sans-serif;
+      flex-grow: 1;
+      flex-basis: 0;
+      font-size: 17px;
+      width: 100%;
+    }
+
+    .titulo {
+      font-weight: bold;
+      font-size: 20px;
+      border-bottom: 1px solid #b1b1b1;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+
+    .direcionar_artigo {
+      color: #9900ff;
+    }
+
+    .cronograma {
+        display: block;
+        width: 500px;
+    }
+
+    .botao {
+        height: 45px;
+    }
+
+    .book .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/book-open.png");
+    }
+
+    .book .titulo, .book .cor_tema {
+        color: #9365b8;
+    }
+
+    
+    .calendar .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/calendar.png");
+    }
+
+    .calendar .titulo, .calendar .cor_tema {
+        color: #00a885;
+    }
+
+        
+    .notebook .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/notebook-pen.png");
+    }
+
+    .notebook .titulo, .notebook .cor_tema {
+        color: #41a85f;
+    }
+
+        
+    .rocket .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/rocket.png");
+    }
+
+    .rocket .titulo, .rocket .cor_tema {
+        color: #2c82c9;
+    }
+
+        
+    .search .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/search.png");
+    }
+
+    .search .titulo, .search .cor_tema {
+        color: #54acd2;
+    }
+
+        
+    .target .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/target.png");
+    }
+
+    .target .titulo, .target .cor_tema {
+        color: #d14841;
+    }
+
+    .warning .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/triangle-alert.png");
+    }
+
+    .warning .titulo, .warning .cor_tema {
+        color: #fba026;
+    }
+
+    .cam .icone {
+        background-image: url("https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/%C3%8Dcones/video.png");
+    }
+
+    .cam .titulo, .cam .cor_tema {
+        color: #eb6b56;
+    }
+
+</style>
+
+
+<p>Olá Equipe <span class="substituir">[Nome da Empresa]</span>,
+<p>Obrigada por comparecerem em nossa reunião. Chegamos na reta final do nosso onboarding e estamos muito animados com o início da solução junto com vocês!</p>
+<p>Nosso dia de treinamento foi concluído e seguem as considerações:</p>
+
+
+<!-- O que vimos -->
+<div class="card rocket">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">O que vimos?</h1>
+        <ul>
+            <li>Apresentação de atividades concluídas e pendentes</li>
+            <li>Alinhamento de contatos</li>
+            <li>Apresentação do novo ponto focal de CS</li>
+            <li>Transição para Jornada de Ongoing (30 dias)</li>
+            <li>Tira dúvidas e próximos passos</li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- Tarefas -->
+<div class="card notebook">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Tarefas</h1>
+        <p><strong>Pedimos que nos enviem as planilhas se possível até o próximo encontro.</strong></p>
+        <p style="font-weight: bolder; color: #00a885; font-size: 18px;">Caso já tenham enviado, por gentileza desconsiderar</p>
+        <br>
+        <p>As planilhas devem ser preenchidas e enviadas na seguinte ordem:</p>
+        <ol style="list-style-type: none">
+            <li><strong class="cor_tema">1. </strong>Planilha de Usuários</li>
+            <li><strong class="cor_tema">2. </strong>Planilha de Documentos e Linhas</li>
+            <li><strong class="cor_tema">3. </strong>Planilha de Migração de Fornecedores</li>
+            <li><strong class="cor_tema">4. </strong>Planilha de Migração de Terceiros <span class="substituir2">[Avaliar se possui no escopo]</span></li>
+        </ol>
+        <br>
+        <p>Reforço que a agilidade no início da utilização da plataforma depende do envio dessas planilhas, pois cada etapa depende da conclusão da anterior.</p>
+        <p>Além disso, após o recebimento, existem processos internos com prazo de execução, como migração de dados, enriquecimento de documentos e emissão em massa de certificados cadastrais.</p>
+
+    </div>
+</div>
+
+
+<!-- Materiais de Apoio -->
+<div class="card book">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Materiais de Apoio</h1>
+
+        <p>Os templates para preenchimento estão todos disponíveis no link a seguir</p>
+        
+        <a target="_blank" rel="noopener noreferrer" href="https://efcaz.movidesk.com/kb/pt-br/article/552858/kb90008-srm-planilhas-de-parametrizacao-onboarding?menuId=51758-142327-552858&ticketId=&q="><img class="botao" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/2%C2%BA%20Encontro/Imagens/Bot%C3%A3o%201.png"></a>
+
+        <br>
+        <br>
+        <p><strong>Artigos úteis:</strong></p>
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/553447/guia-do-cliente?menuId=51758-142326-553447&ticketId=&q=" target="_blank" rel="noopener noreferrer">Guia do Cliente</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/574041/guia-do-fornecedor?menuId=51758-142337-574041&ticketId=&q=" target="_blank" rel="noopener noreferrer">Guia do Fornecedor</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/547502/kb90011-srm-como-criar-um-pre-cadastro?menuId=51758-142328-547502&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como criar pré-cadastro</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/574197/kb90014-srm-como-cadastrar-minha-empresa?menuId=51758-142329-574197&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como preencher cadastro (Etapa do Fornecedor)</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/549190/kb90022-srm-efcaz-como-realizar-analise-de-solicitacao?menuId=51758-142330-549190&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como analisar cadastro</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/509960/kb90023-srm-significado-dos-status-de-solicitacao?menuId=51758-142330-509960&ticketId=&q=" target="_blank" rel="noopener noreferrer">Significado dos status das solicitações</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/509917/kb90005-srm-reset-de-senha?menuId=51758-142327-509917&ticketId=&q=" target="_blank" rel="noopener noreferrer">Alteração ou reset de senha</a></p>
+
+        <br>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562898/kb90053-srm-o-que-sao-ocorrencias?menuId=51758-142334-562898&ticketId=&q=" target="_blank" rel="noopener noreferrer">O que são ocorrências</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562900/kb90054-srm-como-gerar-ocorrencias?menuId=51758-142334-562900&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como gerar ocorrências</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562906/kb99035-srm-como-responder-ocorrencias?menuId=51758-142343-562906&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como o fornecedor responde ocorrências</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562694/kb90056-srm-o-que-sao-avaliacoes-e-quais-os-tipos-disponiveis?menuId=51758-142333-562694&ticketId=&q=" target="_blank" rel="noopener noreferrer">O que são avaliações e os tipos disponíveis</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562695/2-como-criar-perguntas-das-avaliacoes?menuId=51758-142333-562695&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como criar perguntas para avaliações</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562697/kb90058-srm-como-criar-modelos-de-avaliacoes-e-rfis?menuId=51758-142333-562697&ticketId=&q=" target="_blank" >Como criar modelos de avaliações</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562698/kb90059-srm-submeter-rfi?menuId=51758-142333-562698&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como submeter uma RFI</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/562699/kb90060-srm-submeter-avaliacoes?menuId=51758-142333-562699&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como submeter uma avaliação interna</a></p>
+
+        <p class="direcionar_artigo">➤&nbsp;<a href="https://efcaz.movidesk.com/kb/pt-br/article/574227/kb90017-srm-como-cadastrar-colaboradores-gestao-de-terceiros?menuId=51758-142329-574227&ticketId=&q=" target="_blank" rel="noopener noreferrer">Como adicionar um terceiro no cadastro da empresa</a></p>
+    </div>
+</div>
+
+
+<!-- Link da Gravação -->
+<div class="card cam">
+    <div class="icone"></div>
+    <div class="texto">
+        <h1 class="titulo">Link da Gravação</h1>
+        <p>Para assistir as gravações é necessário estar logado em uma <strong>Conta Gmail</strong>.</p>
+
+        <img class="botao" src="https://raw.githubusercontent.com/kethllensantos-efcaz/MailOnboarding/refs/heads/main/Modelos%20de%20E-mail/2%C2%BA%20Encontro/Imagens/Bot%C3%A3o%202.png">
+
+    </div>
+</div>
+
+
+<div style="font-weight: bold;">
+    
+    <p>Caso fique alguma dúvida, fico à disposição.</p>
+    <p>Grande abraço!</p>
+
+</div>
